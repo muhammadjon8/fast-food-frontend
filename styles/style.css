@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navbar .left-menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+}
+.navbar .left-menu ul a {
+  text-decoration: none;
+  padding: 40px 0;
+  font-size: 20px;
+  color: rgb(17, 89, 82);
+}
+
+.hero-section .hero-left .hero-right {
+  width: 50%;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.hero-section .hero-right img {
+  width: 600px;
+  height: 700px;
+}
+
+.features-section {
+  height: 500px;
+}
+
+.about-section {
+  height: 500px;
+}
+
+.right-menu button {
+  color: white;
+  background-color: rgb(230, 134, 9);
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  width: 180px;
+}
+
+.right-menu button:hover {
+  background-color: green;
+}
+
+.hero-right {
+  width: 1200px;
+}
+
+.hero-left {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-left h1 {
+  font-size: 4em;
+}
+
+.hero-left p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.4em;
+}
+
+.order {
+  color: white;
+  background-color: rgb(230, 134, 9);
+  border-radius: 5px;
+  border: none;
+  padding: 20px 30px;
+}
+.details {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  border: 2px solid;
+  border-color: antiquewhite;
+  margin-left: 30px;
+}
+
+.features-section {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dc780b;
+  font-size: 16px;
+}
+
+.features__h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.advantages h3 {
+  text-align: center;
+}
+
+.advantages p {
+  text-align: center;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.left-side img {
+  border-radius: 30px;
+}
+
+.right-side h2 {
+  color: #dc780b;
+  font-size: 16px;
+}
+
+.right-side p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+.right-side button {
+  color: white;
+  background-color: rgb(230, 134, 9);
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  width: 180px;
+}
+
+.menu-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.name__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orders img {
+  border-radius: 50px 0;
+  margin-top: 50px;
+}
+.orders p {
+  font-size: 16px;
+}
+
+.add_star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add_star button {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #dc780b;
+  color: white;
+}
+.add_star img {
+  height: 30px;
+  width: 30px;
+}
+
+.orders p {
+  font-size: 16px;
+}
+
+.container #menuh3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #dc780b;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 31.25px;
+  text-align: center;
+}
+
+.container p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+#ok {
+  text-align: left;
+}
+
+.learn_more {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn_more button {
+  color: #dc780b;
+  /* border-color: rgb(203, 197, 197); */
+  background-color: white;
+  padding: 16px 56px;
+  border: 1px solid grey;
+}
+
+#testimonial {
+  margin-top: 100px;
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-section h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: center;
+  color: #dc780b;
+}
+
+.testimonial-section p {
+  max-width: 500px; /* Changed width to max-width for better responsiveness */
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars img {
+  max-width: 30px; /* Adjust this according to your star image size */
+}
+
+.contact-section {
+  background-color: #f6e6d7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.contact-section h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: center;
+  color: #dc780b;
+  padding: 10px;
+}
+
+.contact-section h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 31.25px;
+  text-align: center;
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.contact-section form input {
+  width: 600px; /* Adjust width as needed */
+  height: 75px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.contact-section form button {
+  width: 150px;
+  height: 75px;
+  background-color: #dc780b;
+  color: white;
+  border-radius: 15px;
+  /* vertical-align: middle;  */
+  margin-left: -15px;
+}
+
+.footer-section {
+  background-color: #252525;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 16px;
+}
+
+.footer-section a {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.footer-section h4 {
+  padding: 20px;
+}
+
+.footer-section p {
+  padding: 5px;
+}
